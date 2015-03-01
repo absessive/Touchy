@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C1867FA41AA3CBA600584734 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1867FA31AA3CBA600584734 /* AppDelegate.swift */; };
+		C1867FA61AA3CBA600584734 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1867FA51AA3CBA600584734 /* ViewController.swift */; };
+		C1867FA91AA3CBA600584734 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1867FA71AA3CBA600584734 /* Main.storyboard */; };
+		C1867FAB1AA3CBA600584734 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1867FAA1AA3CBA600584734 /* Images.xcassets */; };
+		C1867FAE1AA3CBA600584734 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1867FAC1AA3CBA600584734 /* LaunchScreen.xib */; };
+		C1867FBA1AA3CBA600584734 /* TouchyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1867FB91AA3CBA600584734 /* TouchyTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C1867FB41AA3CBA600584734 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1867F961AA3CBA600584734 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1867F9D1AA3CBA600584734;
+			remoteInfo = Touchy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C1867F9E1AA3CBA600584734 /* Touchy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Touchy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1867FA21AA3CBA600584734 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1867FA31AA3CBA600584734 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C1867FA51AA3CBA600584734 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C1867FA81AA3CBA600584734 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C1867FAA1AA3CBA600584734 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C1867FAD1AA3CBA600584734 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C1867FB31AA3CBA600584734 /* TouchyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1867FB81AA3CBA600584734 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1867FB91AA3CBA600584734 /* TouchyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchyTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1867F9B1AA3CBA600584734 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1867FB01AA3CBA600584734 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1867F951AA3CBA600584734 = {
+			isa = PBXGroup;
+			children = (
+				C1867FA01AA3CBA600584734 /* Touchy */,
+				C1867FB61AA3CBA600584734 /* TouchyTests */,
+				C1867F9F1AA3CBA600584734 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1867F9F1AA3CBA600584734 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1867F9E1AA3CBA600584734 /* Touchy.app */,
+				C1867FB31AA3CBA600584734 /* TouchyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1867FA01AA3CBA600584734 /* Touchy */ = {
+			isa = PBXGroup;
+			children = (
+				C1867FA31AA3CBA600584734 /* AppDelegate.swift */,
+				C1867FA51AA3CBA600584734 /* ViewController.swift */,
+				C1867FA71AA3CBA600584734 /* Main.storyboard */,
+				C1867FAA1AA3CBA600584734 /* Images.xcassets */,
+				C1867FAC1AA3CBA600584734 /* LaunchScreen.xib */,
+				C1867FA11AA3CBA600584734 /* Supporting Files */,
+			);
+			path = Touchy;
+			sourceTree = "<group>";
+		};
+		C1867FA11AA3CBA600584734 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1867FA21AA3CBA600584734 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C1867FB61AA3CBA600584734 /* TouchyTests */ = {
+			isa = PBXGroup;
+			children = (
+				C1867FB91AA3CBA600584734 /* TouchyTests.swift */,
+				C1867FB71AA3CBA600584734 /* Supporting Files */,
+			);
+			path = TouchyTests;
+			sourceTree = "<group>";
+		};
+		C1867FB71AA3CBA600584734 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1867FB81AA3CBA600584734 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1867F9D1AA3CBA600584734 /* Touchy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1867FBD1AA3CBA600584734 /* Build configuration list for PBXNativeTarget "Touchy" */;
+			buildPhases = (
+				C1867F9A1AA3CBA600584734 /* Sources */,
+				C1867F9B1AA3CBA600584734 /* Frameworks */,
+				C1867F9C1AA3CBA600584734 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Touchy;
+			productName = Touchy;
+			productReference = C1867F9E1AA3CBA600584734 /* Touchy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C1867FB21AA3CBA600584734 /* TouchyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1867FC01AA3CBA600584734 /* Build configuration list for PBXNativeTarget "TouchyTests" */;
+			buildPhases = (
+				C1867FAF1AA3CBA600584734 /* Sources */,
+				C1867FB01AA3CBA600584734 /* Frameworks */,
+				C1867FB11AA3CBA600584734 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1867FB51AA3CBA600584734 /* PBXTargetDependency */,
+			);
+			name = TouchyTests;
+			productName = TouchyTests;
+			productReference = C1867FB31AA3CBA600584734 /* TouchyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1867F961AA3CBA600584734 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = absessive;
+				TargetAttributes = {
+					C1867F9D1AA3CBA600584734 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					C1867FB21AA3CBA600584734 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = C1867F9D1AA3CBA600584734;
+					};
+				};
+			};
+			buildConfigurationList = C1867F991AA3CBA600584734 /* Build configuration list for PBXProject "Touchy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1867F951AA3CBA600584734;
+			productRefGroup = C1867F9F1AA3CBA600584734 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1867F9D1AA3CBA600584734 /* Touchy */,
+				C1867FB21AA3CBA600584734 /* TouchyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1867F9C1AA3CBA600584734 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1867FA91AA3CBA600584734 /* Main.storyboard in Resources */,
+				C1867FAE1AA3CBA600584734 /* LaunchScreen.xib in Resources */,
+				C1867FAB1AA3CBA600584734 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1867FB11AA3CBA600584734 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1867F9A1AA3CBA600584734 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1867FA61AA3CBA600584734 /* ViewController.swift in Sources */,
+				C1867FA41AA3CBA600584734 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1867FAF1AA3CBA600584734 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1867FBA1AA3CBA600584734 /* TouchyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C1867FB51AA3CBA600584734 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1867F9D1AA3CBA600584734 /* Touchy */;
+			targetProxy = C1867FB41AA3CBA600584734 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C1867FA71AA3CBA600584734 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1867FA81AA3CBA600584734 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C1867FAC1AA3CBA600584734 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1867FAD1AA3CBA600584734 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C1867FBB1AA3CBA600584734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C1867FBC1AA3CBA600584734 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1867FBE1AA3CBA600584734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Touchy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C1867FBF1AA3CBA600584734 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Touchy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C1867FC11AA3CBA600584734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TouchyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Touchy.app/Touchy";
+			};
+			name = Debug;
+		};
+		C1867FC21AA3CBA600584734 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TouchyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Touchy.app/Touchy";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1867F991AA3CBA600584734 /* Build configuration list for PBXProject "Touchy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1867FBB1AA3CBA600584734 /* Debug */,
+				C1867FBC1AA3CBA600584734 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1867FBD1AA3CBA600584734 /* Build configuration list for PBXNativeTarget "Touchy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1867FBE1AA3CBA600584734 /* Debug */,
+				C1867FBF1AA3CBA600584734 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C1867FC01AA3CBA600584734 /* Build configuration list for PBXNativeTarget "TouchyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1867FC11AA3CBA600584734 /* Debug */,
+				C1867FC21AA3CBA600584734 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1867F961AA3CBA600584734 /* Project object */;
+}
