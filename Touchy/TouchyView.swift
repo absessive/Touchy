@@ -72,12 +72,16 @@ class TouchyView: UIView {
             path.stroke()
         }
         
+        var colors = [UIColor.yellowColor(), UIColor.blueColor(), UIColor.greenColor(), UIColor.redColor(), UIColor.whiteColor(), UIColor.cyanColor(), UIColor.magentaColor(), UIColor.orangeColor(), UIColor.purpleColor()]
+        
         var touchNumber = 0
-        let fontAttributes = [
-            NSFontAttributeName:            UIFont.boldSystemFontOfSize(180),
-            NSForegroundColorAttributeName: UIColor.yellowColor()
-        ];
+
         for location in touchPoints {
+            var index = Int(arc4random_uniform(UInt32(colors.count)))
+            let fontAttributes = [
+                NSFontAttributeName:            UIFont.boldSystemFontOfSize(180),
+                NSForegroundColorAttributeName: colors[index]
+            ];
             let text: NSString = "\(++touchNumber)"
             let size = text.sizeWithAttributes(fontAttributes)
             let textCorner = CGPoint(x: location.x-size.width/2,
